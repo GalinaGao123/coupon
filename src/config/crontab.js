@@ -1,7 +1,7 @@
-const isDev = think.env === 'development';
+// const isDev = think.env === 'development';
 
 module.exports = [{
-  immediate: !isDev,
+  // immediate: !isDev,
   cron: '0 * * * *',
   async handle () {
     const taobao = think.service('taobao')
