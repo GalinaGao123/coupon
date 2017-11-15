@@ -102,6 +102,7 @@ module.exports = class extends think.Service {
   }
 
   async sync () {
+    think.logger.info('------------------- 开始同步淘宝数据 -------------------')
     const products = think.mongo('products')
     await products.delete()
 
