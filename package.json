@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "moment": "^2.18.1",
+    "moment": "^2.21.0",
     "think-cache": "^1.0.0",
     "think-cache-file": "^1.0.8",
     "think-crontab": "^1.0.4",
